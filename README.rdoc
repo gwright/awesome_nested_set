@@ -4,6 +4,9 @@ Awesome Nested Set is an implementation of the nested set pattern for ActiveReco
 
 See, it's Rails 3 only.
 
+Sun Feb 20 17:52:28 EST 2011
+  Updated active record dependency to 3.0.0 to enable newer versions of Rails
+
 == What makes this so awesome?
 
 This is a new implementation of nested set based off of BetterNestedSet that fixes some bugs, removes tons of duplication, adds a few useful methods, and adds STI support.
@@ -12,11 +15,11 @@ This is a new implementation of nested set based off of BetterNestedSet that fix
 
 The plugin is available as a gem:
 
-  gem 'be9-awesome_nested_set'
+  gem 'gwright-awesome_nested_set'
 
 Or install as a plugin:
 
-  rails plugin install git://github.com/be9/awesome_nested_set.git
+  rails plugin install git://github.com/gwright/awesome_nested_set.git
 
 == Usage
 
